@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isaac | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <a href="#" class="logo">ISAAC<span>.DEV</span></a>
+      <button id="menuBtn" class="menu-btn"
+        aria-label="Toggle menu"
+        aria-expanded="false">☰</button>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <p class="eyebrow">HELLO, I'M ISAAC</p>
+      <h1>Building digital<br>
+        <span>experiences with code.</span>
+      </h1>
+      <p class="hero-desc">
+        Software Developer, Cybersecurity Student
+        and Tech Enthusiast. I build modern websites,
+        applications and cloud-based solutions.
+      </p>
+      <div class="buttons">
+        <a href="#projects" class="btn primary">
+          View Projects →
+        </a>
+        <a href="#contact" class="btn secondary">
+          Contact Me
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About Me</h2>
+      <p class="section-desc">
+        I'm a passionate developer from Myanmar,
+        currently studying computing and pursuing
+        a career in cybersecurity. I enjoy solving
+        problems, creating useful software and
+        exploring new technologies.
+      </p>
+    </section>
+
+    <section id="skills" class="section container">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>React</span>
+        <span>Next.js</span>
+        <span>Python</span>
+        <span>PHP</span>
+        <span>Laravel</span>
+        <span>Cloudflare</span>
+        <span>Git & GitHub</span>
+        <span>Linux</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <p class="eyebrow">MY WORK</p>
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon">🛍️</div>
+          <h3>Wild Soul Club</h3>
+          <p>
+            Modern e-commerce platform with product
+            management, authentication and payments.
+          </p>
+          <small>Next.js • Supabase • Cloudflare R2</small>
+          <a href="https://github.com/IsaacTalb/wildsoulclub"
+             target="_blank" rel="noopener noreferrer">
+            View Project ↗
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">☁️</div>
+          <h3>Duck Cloud</h3>
+          <p>
+            Developer tools, technology articles
+            and cloud-based web applications.
+          </p>
+          <small>JavaScript • Cloudflare • D1</small>
+          <a href="https://www.duckcloud.info"
+             target="_blank" rel="noopener noreferrer">
+            Visit Website ↗
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">📰</div>
+          <h3>The Major Insight</h3>
+          <p>
+            A modern digital publication focused
+            on news, analysis and insights.
+          </p>
+          <small>Web Development • CMS • UI/UX</small>
+          <a href="https://github.com/IsaacTalb/themajorinsight"
+             target="_blank" rel="noopener noreferrer">
+            View Project ↗
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have a project in mind?</h2>
+      <p class="section-desc">
+        I'm always interested in learning,
+        collaborating and building new things.
+      </p>
+      <a href="mailto:isaac@duckcloud.info"
+         class="btn primary">Send an Email →</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Isaac.
+      Built with HTML, CSS & JavaScript.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
